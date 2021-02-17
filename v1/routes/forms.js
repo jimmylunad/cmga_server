@@ -90,7 +90,7 @@ exports.postulant = async ctx => {
 		{
 			from: process.env.EMAIL_SENDER,
 			to: process.env.EMAIL_TO,
-			subject: 'Ficha de postulante',
+			subject: `Ficha de postulante [${document_number}]`,
 			html: mail_register_template,
       attachments: [{filename: files[0].originalname, content: fs.createReadStream(files[0].path)}]
 		}
