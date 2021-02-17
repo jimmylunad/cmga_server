@@ -204,22 +204,32 @@ module.exports  = `
                           </tr>
                           <tr>
                             <td align="left" style="font-size:0px;padding:0px;padding-bottom:6px;word-break:break-word;">
-                              <div style="font-family:Arial, Helvetica, sans-serif, Verdana;font-size:14px;line-height:1;text-align:left;color:#383838;">Nombre: <span>@NAME</span></div>
+                              <div style="font-family:Arial, Helvetica, sans-serif, Verdana;font-size:14px;line-height:1;text-align:left;color:#383838;">Número de operación: <span>@OPERATION_NUMBER</span></div>
                             </td>
                           </tr>
                           <tr>
                             <td align="left" style="font-size:0px;padding:0px;padding-bottom:6px;word-break:break-word;">
-                              <div style="font-family:Verdana, Helvetica, sans-serif;font-size:14px;line-height:1;text-align:left;color:#383838;">E-mail: <span>@EMAIL</span></div>
+                              <div style="font-family:Verdana, Helvetica, sans-serif;font-size:14px;line-height:1;text-align:left;color:#383838;">Número de DNI: <span>@DOCUMENT_NUMBER</span></div>
                             </td>
                           </tr>
                           <tr>
-                            <td align="left" style="font-size:0px;padding:0px;padding-bottom:28px;word-break:break-word;">
-                              <div style="font-family:Verdana, Helvetica, sans-serif;font-size:14px;line-height:1;text-align:left;color:#383838;">Teléfono: <span>@PHONE</span></div>
+                            <td align="left" style="font-size:0px;padding:0px;padding-bottom:6px;word-break:break-word;">
+                              <div style="font-family:Verdana, Helvetica, sans-serif;font-size:14px;line-height:1;text-align:left;color:#383838;">Nombres: <span>@NAMES</span></div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" style="font-size:0px;padding:0px;padding-bottom:6px;word-break:break-word;">
+                              <div style="font-family:Verdana, Helvetica, sans-serif;font-size:14px;line-height:1;text-align:left;color:#383838;">Apellidos: <span>@LASTNAMES</span></div>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td align="left" style="font-size:0px;padding:0px;padding-bottom:6px;word-break:break-word;">
+                              <div style="font-family:Verdana, Helvetica, sans-serif;font-size:14px;line-height:1;text-align:left;color:#383838;">Celular: <span>@MOBILE_PHONE</span></div>
                             </td>
                           </tr>
                           <tr>
                             <td align="left" style="font-size:0px;padding:0px;padding-bottom:0px;word-break:break-word;">
-                              <div style="font-family:Verdana, Helvetica, sans-serif;font-size:14px;line-height:1;text-align:left;color:#383838;">Mensaje: <span>@MESSAGE</span></div>
+                              <div style="font-family:Verdana, Helvetica, sans-serif;font-size:14px;line-height:1;text-align:left;color:#383838;">Email: <span>@MAIL</span></div>
                             </td>
                           </tr>
                         </table>

@@ -10,5 +10,6 @@ router.use(middleware.log);
 router.use(middleware.handle_error);
 
 router.post('/save_contact',	forms.contact);
+router.post('/save_postulant', multer({ dest: './tmp' }).any(),	forms.postulant);
 
 module.exports = router;
